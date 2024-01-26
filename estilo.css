@@ -8,6 +8,46 @@ body {
     
   }
 
+  @media (max-width:767px) {
+    .desktop {
+      display: none;
+    }
+    .tablet{
+      display: none;
+    }
+    .movil{
+      display: none;
+    }
+  }
+  @media (min-width:768px) and (max-width:990){
+
+    .desktop {
+      display: none;
+    }
+    .tablet{
+      display: none;
+    }
+    .movil{
+      display: none;
+    }
+
+
+  }
+
+  @media (main-width:991px){
+
+    .desktop {
+      display: none;
+    }
+    .tablet{
+      display: none;
+    }
+    .movil {
+      display: none;
+    }
+  }
+
+
 
   html {
     scroll-behavior: smooth;
@@ -141,7 +181,7 @@ footer p {
   }
 
   nav a {
-    font-size: 11px; /* Reducimos el tamaño del texto */
+    font-size: 4px; /* Reducimos el tamaño del texto */
 }
 }
 
