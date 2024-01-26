@@ -162,6 +162,8 @@ footer p {
 }
 
 
+/*medidas para celulares */
+
 @media screen and (max-width: 768px) {
   header {
       margin-bottom: 50px;
@@ -179,15 +181,15 @@ footer p {
       max-width: 100%;
       height: auto;
   }
-}
-
+  
   /* Estilos para dispositivos móviles */
   pre {
-    overflow-x: auto; /* Agregar desplazamiento horizontal en caso de texto largo */
-    white-space: pre-wrap; /* Romper palabras largas */
-    word-wrap: break-word; /* Romper palabras largas en línea */
-}
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+  }
 
-footer {
-    padding: 15px 0; /* Reducir el espacio interno superior e inferior */
+  footer {
+      padding: 15px 0;
+  }
 }
