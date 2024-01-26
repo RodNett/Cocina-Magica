@@ -7,49 +7,7 @@ body {
   
   }
 
-
-  @media (max-width:767px) {
-    .desktop {
-      display: none;
-    }
-    .tablet{
-      display: none;
-    }
-    .movil{
-      display: none;
-    }
-  }
-  @media (min-width:768px) and (max-width:990){
-
-    .desktop {
-      display: none;
-    }
-    .tablet{
-      display: none;
-    }
-    .movil{
-      display: none;
-    }
-
-
-  }
-
-  @media (main-width:991px){
-
-    .desktop {
-      display: none;
-    }
-    .tablet{
-      display: none;
-    }
-    .movil {
-      display: none;
-    }
-  }
-
-
-  html{
-
+  html {
     scroll-behavior: smooth;
   }
   header {
@@ -100,30 +58,22 @@ body {
 
     background-color: #FF9966;
     transition: 0.3s;
-     }
 
-  
+  }
   section {
     padding: 20px;
-    bottom: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
 
   .receta {
     border: 1px solid black;
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #50EBEC;
+    background-color: #50EBEC;;
     padding-left: 30%;
     
   } 
-
-  .receta section{
-
-    margin-bottom: 100px;    
-  
-    }
-    
+ 
   
 
   .receta img {
@@ -137,7 +87,6 @@ body {
     font-weight:bold;
   }
 
- 
  
   footer {
     background-color: #004173; /* Color de fondo */
@@ -189,7 +138,11 @@ footer p {
       word-wrap: break-word;
   }
 
+  nav a {
+    font-size: 11px; /* Reducimos el tamaño del texto */
+}
+}
+
   footer {
       padding: 15px 0;
   }
-}

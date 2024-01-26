@@ -9,10 +9,9 @@ body {
   }
 
 
-html{
-  scroll-behavior: smooth;
-}
-  
+  html {
+    scroll-behavior: smooth;
+  }
   header {
     margin-bottom: 100px;
     width: 100%;    
@@ -61,26 +60,22 @@ html{
 
     background-color: #FF9966;
     transition: 0.3s;
+
   }
   section {
     padding: 20px;
-    bottom: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
   }
+
   .receta {
-    
-    margin-bottom: 20px;
-    border: 1px solid #F3dbc3;
+    border: 1px solid #F3dbc3;;
     padding: 20px;
-    background-color: #f3dbc3;
+    margin-bottom: 20px;
+    background-color:#f3dbc3;;
     padding-left: 30%;
     
   } 
-  .receta section{
-
-  margin-bottom: 100px;    
-
-  }
+ 
   
 
   .receta img {
@@ -93,8 +88,6 @@ html{
 
     font-weight:bold;
   }
-
-
 
  
   footer {
@@ -117,9 +110,6 @@ footer p {
   color: #fff; /* Color del enlace */
   text-decoration: none; /* Eliminar subrayado del enlace */
   font-weight: bold; /* Texto en negrita */
-}
-.contact-link:hover{
-  background-color: #ffd700;
 }
 
 
@@ -150,7 +140,11 @@ footer p {
       word-wrap: break-word;
   }
 
+  nav a {
+    font-size: 11px; /* Reducimos el tamaño del texto */
+}
+}
+
   footer {
       padding: 15px 0;
   }
-}

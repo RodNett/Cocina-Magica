@@ -6,46 +6,6 @@ body {
   position: relative;
   }
 
-  @media (max-width:767px) {
-    .desktop {
-      display: none;
-    }
-    .tablet{
-      display: none;
-    }
-    .movil{
-      display: none;
-    }
-  }
-  @media (min-width:768px) and (max-width:990){
-
-    .desktop {
-      display: none;
-    }
-    .tablet{
-      display: none;
-    }
-    .movil{
-      display: none;
-    }
-
-
-  }
-
-  @media (main-width:991px){
-
-    .desktop {
-      display: none;
-    }
-    .tablet{
-      display: none;
-    }
-    .movil {
-      display: none;
-    }
-  }
-
-
   html {
     scroll-behavior: smooth;
   }
@@ -177,7 +137,11 @@ footer p {
       word-wrap: break-word;
   }
 
+  nav a {
+    font-size: 11px; /* Reducimos el tamaño del texto */
+}
+}
+
   footer {
       padding: 15px 0;
   }
-}
