@@ -6,46 +6,6 @@ body {
   position: relative;
   }
 
-  @media (max-width:767px) {
-    .desktop {
-      display: none;
-    }
-    .tablet{
-      display: none;
-    }
-    .movil{
-      display: none;
-    }
-  }
-  @media (min-width:768px) and (max-width:990){
-
-    .desktop {
-      display: none;
-    }
-    .tablet{
-      display: none;
-    }
-    .movil{
-      display: none;
-    }
-
-
-  }
-
-  @media (main-width:991px){
-
-    .desktop {
-      display: none;
-    }
-    .tablet{
-      display: none;
-    }
-    .movil {
-      display: none;
-    }
-  }
-
-
   html {
     scroll-behavior: smooth;
   }
@@ -149,6 +109,9 @@ footer p {
   font-weight: bold; /* Texto en negrita */
 }
 
+
+/*medidas para celulares */
+
 @media screen and (max-width: 768px) {
   header {
       margin-bottom: 50px;
@@ -166,4 +129,19 @@ footer p {
       max-width: 100%;
       height: auto;
   }
+  
+  /* Estilos para dispositivos móviles */
+  pre {
+      overflow-x: auto;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+  }
+
+  nav a {
+    font-size: 11px; /* Reducimos el tamaño del texto */
 }
+}
+
+  footer {
+      padding: 15px 0;
+  }
