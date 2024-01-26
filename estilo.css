@@ -143,3 +143,14 @@ footer p {
       height: auto;
   }
 }
+
+  /* Estilos para dispositivos móviles */
+  pre {
+    overflow-x: auto; /* Agregar desplazamiento horizontal en caso de texto largo */
+    white-space: pre-wrap; /* Romper palabras largas */
+    word-wrap: break-word; /* Romper palabras largas en línea */
+}
+
+footer {
+    padding: 15px 0; /* Reducir el espacio interno superior e inferior */
+}
