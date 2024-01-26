@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  position: relative;
+  
+  }
+
+  html{
+
+    scroll-behavior: smooth;
+  }
+  header {
+    margin-bottom: 100px;
+    width: 100%;    
+    position: fixed;
+    background-color:#99CC66 ;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+
+.cocinero{
+
+  width: 40px;
+
+}
+  nav {
+    position: fixed;
+    margin-top: 90px;
+    background-color:#FFCC66;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    
+    
+  }
+
+  nav a {
+    
+    color: white;
+      text-decoration: none;
+      padding: 0.5em 1em;
+      margin: 0 1em;
+            
+    
+  }
+  nav  :hover{
+    background-color: #FF9966;
+    padding: 17px;
+    padding-left:30px;
+    color: white;
+    transition:0.6s;
+    font-weight: bold;
+
+  }
+  nav a :hover{
+
+    background-color: #FF9966;
+    transition: 0.3s;
+     }
+
+  
+  section {
+    padding: 20px;
+    bottom: 100px;
+    padding-bottom: 50px;
+  }
+
+  .receta {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #50EBEC;
+    padding-left: 30%;
+    
+  } 
+
+  .receta section{
+
+    margin-bottom: 100px;    
+  
+    }
+    
+  
+
+  .receta img {
+    max-width: 70%;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+
+  .receta p{
+
+    font-weight:bold;
+  }
+
+  .contador-meGusta {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color:#120052; /* Número en blanco */
+    font-weight: bold;
+
+  }
+
+  .contador-corazon {
+    display: inline-block;
+    margin-left: 5px;
+    background-color: #e74c3c; /* Color de fondo rojo para el círculo */
+    border-radius: 50%; /* Hace que el corazón esté encerrado en un círculo */
+    padding: 4px;
+
+  } 
+
+  .cargando {
+    font-size: 14px;
+    opacity: 0.7;
+  }
+
+  .boton-meGusta {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+  }
+
+  .boton-meGusta i {
+    margin-right: 8px;
+  }
+
+  .boton-meGusta:hover {
+    background-color: #c0392b;
+  }
+
+  
+ 
+  footer {
+    background-color: #004173; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 20px 0; /* Espaciado interno superior e inferior */
+    text-align: center; /* Centrar el texto */
+    margin: 0%; 
+    position: absolute;
+    width: 100%; /* Ancho completo */
+    bottom: 0; /* Alinear al fondo de la ventana */
+}
+
+
+footer p {
+    margin: 0; /* Eliminar márgenes internos */
+}
+
+.contact-link {
+  color: #fff; /* Color del enlace */
+  text-decoration: none; /* Eliminar subrayado del enlace */
+  font-weight: bold; /* Texto en negrita */
+}
