@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo1.css">
+    <title>Cocina Mágica</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <header>
+        <h1><img src="recetas/cocinero.png" class="cocinero">Cocina Mágica<img src="recetas/cocinero.png" class="cocinero"></h1>
+      </header>
+      <br>
+    
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="index.html">Recetas Saladas</a>
+        <a href="dulces.html">Recetas Dulces</a>
+        <a href="especiales.html">Recestas Especiales</a>
+      </nav>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <section>
+        <div class="receta">
+          <img src="recetas/mora.jpg" alt="mermelada de mora">
+          <h2>MERMELADA DE MORA</h2>
+          <p></p>
+          <p>INGREDIENTES</p>
+          <ul>
+            <li>1 kg de moras maduras</li>
+            <li>1 kg de azúcar</li>
+            <li>1 limon</li>
+          </ul>
+          <b>PREPARACIÓN</b>
+       <pre>
+  1. Lavar muy bien las moras y depositarlas en un 
+      bowl grande con azúcar y jugo de limon.
+
+  2. Dejar el bowl con las moras macerando durante
+      3 horas mínimo.
+
+  3. Pasar la mezcla a una olla y cocinar a fuego medio
+      por unos 40 min. se debe revolver retirando la 
+      espuma de la superficie. 
+   
+  4. Una vez espesa, dejar enfriar y guardar en frascos 
+      de vidrio. 
+      </pre>
+      
+      <div> 
+        <div class="contador-meGusta" id="contador1">0</div>
+        <button class="boton-meGusta" id="boton1" onclick="toggleMeGusta(1)"><i class="far fa-thumbs-up"></i> Me gusta</button>
+       </div>
+        </div>
+
+    
+
+    
+        <div class="receta">
+          <img src="recetas/leche asada.jpg" alt="leche asada">
+          <h2>LECHE ASADA</h2>
+          <p>INGREDIENTES</p>
+          <ul>
+            <li>1 ½ taza de azúcar</li>
+            <li>1 cda. de asencia de vainilla</li>
+            <li>3 cdas. de agua</li>
+            <li>750 ml de leche </li>
+            <li>6 huevos</li>
+            <li>Salsa de caramelo </li>
+          </ul>
+          <b>PREPARACIÓN</b>
+       <pre>
+  1. Calentar a fuego lento en una olla el agua con  ½
+     taza de azúcar hasta que se caramelice, luego 
+     verte en un molde cubriendo toda la base.
+
+  2. Batir los huevos, la leche, la asencia de vainilla 
+     y la taza de azúcar hasta mezclar bien.
+
+  3. Vaciar la mezcla en el molde que teníamos con el 
+     caramelo.
+
+  4. Con el horno ya precalentado a 170° dejaremos unos 
+     45 minutos la mezcla o hasta que haya  cuajado.
+
+  5. Enfriar, poner en un plato y agregar salsa de caramelo 
+     encima.  
+      </pre>
+
+      <div> 
+        <div class="contador-meGusta" id="contador2">0</div>
+        <button class="boton-meGusta" id="boton2" onclick="toggleMeGusta(2)"><i class="far fa-thumbs-up"></i> Me gusta</button>
+       </div>
+    
+        </div>
+
+        </div>
+
+       
+    
+        <div class="receta">
+          <img src="recetas/manzana1.jpg" alt="Manzanas con nueces">
+          <h2>Manzanas asadas con nueces y pasas</h2>
+          <p></p>
+          <p>INGREDIENTES</p>
+          <ul>
+            <li>4 manzanas grandes</li>
+            <li>1 cdta. de canela en polvo</li>
+            <li>40 gr de pasas</li>
+            <li>1 cda. de margarina</li>
+            <li>150 ml de agua caliente</li>
+            <li>50 gr de azucar morena</li>
+            <li>25 gr de nueces peladas</li>
+          </ul>
+          <b>PREPARACIÓN</b>
+       <pre>
+  1. Lavar las manzanas, descorazonarlas sin agujerear
+     la base.
+
+  2. Poner en un bowl el azúcar morena, la canela, las 
+     nueces troceadas y las picadas. Mesclar todo bien.
+
+  3. Poner las manzanas en una fuente apta para el horno,
+     rellenar las manzanas con la mezcla añadiendo un poco
+     de margarina en la parte superiror.
+
+  4. Con el horno ya precalentado a 190° horneado las 
+     manzanas durante 30 a 45 minutos hasta que estén cocidas
+     y tiernas.
+      </pre>
+
+      
+      <div> 
+        <div class="contador-meGusta" id="contador3">0</div>
+        <button class="boton-meGusta" id="boton3" onclick="toggleMeGusta(3)"><i class="far fa-thumbs-up"></i> Me gusta</button>
+       </div>
+        </div>
+       
+        <div class="receta">
+          <img src="recetas/Brownie.jpg" alt="Bwownies">
+          <h2>BROWNIES</h2>
+          <p></p>
+          <p>INGREDIENTES</p>
+          <ul>
+            <li>1 taza de azúcar</li>
+            <li>1/2 taza de harina</li>
+            <li>1/3 taza de cacao en polvo</li>
+            <li>1/4 cucharadita  de sal</li>
+            <li>1/4 cucharadita de levadura en polvo</li>
+            <li>2 huevos</li>
+            <li>1/2 taza de matequilla derretia</li>
+            <li>1 cucharadita de extracto vainilla </li>
+          </ul>
+          <b>PREPARACIÓN</b>
+       <pre>
+
+  1. Precalienta el horno a 180°C y engrasa un molde
+     para brownies.
+
+  2. En un tazón grande, mezcla el azúcar, la harina, 
+     el cacao en polvo, la sal y la levadura en polvo.
+        
+  3. En otro tazón, bate los huevos y luego agrega la 
+     mantequilla derretida y el extracto de vainilla. 
+     Mezcla bien.
+        
+  4. Incorpora la mezcla de ingredientes húmedos en la 
+     mezcla de ingredientes secos. Remueve hasta obtener 
+     una masa homogénea.
+        
+  5. Si deseas, agrega nueces o chispas de chocolate y mezcla.
+        
+  6. Vierte la masa en el molde para brownies y extiéndela de 
+     manera uniforme.
+        
+  7. Hornea en el horno precalentado durante aproximadamente
+     20-25 minutos, o hasta que al insertar un palillo en el 
+     centro, este salga con algunas migas húmedas (no mojadas). 
+     No hornees demasiado para que los brownies queden suaves y húmedos.
+        
+  8. Deja enfriar antes de cortar en porciones. ¡Listo para disfrutar!
+        
+      </pre>
+
+      <div> 
+        <div class="contador-meGusta" id="contador4">0</div>
+        <button class="boton-meGusta" id="boton4" onclick="toggleMeGusta(4)"><i class="far fa-thumbs-up"></i> Me gusta</button>
+       </div>
+        </div>
+      
+        <div class="receta">
+          <img src="recetas/galletas.jpg" alt="galletas">
+          <h2>GALLETAS CON CHISPAS DE CHOCOLATE</h2>
+          <p>INGREDIENTES</p>
+          <ul>
+            <li>1 taza de mantequilla a temperatura ambiente</li>
+            <li>1 taza de azucar morena</li>
+            <li>1 taza de azucar blanca</li>
+            <li>2 huevos</li>
+            <li>1 cucharadita de extracto de vainilla</li>
+            <li>3 tazas de harina de todo uso</li>
+            <li>1 cucharadita de bicarbonato de sodio</li>
+            <li>1/2 cucharadita de sal</li>
+            <li>2 tazas de chispas de chocolate</li>
+          </ul>
+          
+      <b>PREPARACIÓN RELLENO </b>
+      <pre>
+  1. Precalienta el horno a 180°C y forra una bandeja para
+     hornear con papel pergamino.
+
+  2. En un tazón grande, bate la mantequilla, el azúcar moreno 
+     y el azúcar blanco hasta obtener una mezcla suave y cremosa.
+
+  3. Agrega los huevos uno a la vez, batiendo bien después de cada
+     adición. Incorpora el extracto de vainilla y mezcla.
+
+  4. En otro tazón, tamiza la harina, el bicarbonato de sodio y la 
+     sal. Agrega gradualmente esta mezcla seca a la mezcla húmeda 
+     y mezcla hasta que estén bien combinadas.
+  
+  5. Agrega las chispas de chocolate y revuelve para distribuirlas 
+     uniformemente en la masa.
+
+  6. Con la ayuda de una cuchara para helado o dos cucharas, coloca 
+     montones de masa en la bandeja para hornear, dejando espacio entre cada uno.
+
+  7. Hornea en el horno precalentado durante 10-12 minutos, o hasta que los bordes 
+     estén dorados pero el centro aún esté suave.
+
+  8. Deja que las galletas se enfríen en la bandeja durante unos minutos antes de 
+     transferirlas a una rejilla para que se enfríen completamente.
+
+  9. ¡Y ahí lo tienes! Unas deliciosas galletas con chispas de chocolate perfectas 
+      para compartir. ¡Espero que te encanten!
+    
+       </pre>
+       <div> 
+        <div class="contador-meGusta" id="contador5">0</div>
+        <button class="boton-meGusta" id="boton5" onclick="toggleMeGusta(5)"><i class="far fa-thumbs-up"></i> Me gusta</button>
+       </div>
+        </div>
+     
+       
+       
+       
+        <!-- Puedes agregar más recetas según sea necesario -->
+    
+      </section>
+    
+      <script>
+        function obtenerContador(imagenId) {
+            const contador = parseInt(localStorage.getItem(`contadorMeGusta${imagenId}`)) || 0;
+            document.getElementById(`contador${imagenId}`).innerText = contador;
+        }
+    
+        function toggleMeGusta(imagenId) {
+            const meGustaDado = localStorage.getItem(`meGustaDado${imagenId}`);
+    
+            if (meGustaDado) {
+                // Si ya se dio "Me gusta", quitarlo
+                localStorage.removeItem(`meGustaDado${imagenId}`);
+            } else {
+                // Si no se ha dado "Me gusta", darlo
+                localStorage.setItem(`meGustaDado${imagenId}`, 'true');
+            }
+    
+            // Actualizar el contador y el estado del botón
+            const contador = meGustaDado ? parseInt(localStorage.getItem(`contadorMeGusta${imagenId}`)) - 1 : parseInt(localStorage.getItem(`contadorMeGusta${imagenId}`)) + 1;
+            localStorage.setItem(`contadorMeGusta${imagenId}`, contador);
+            document.getElementById(`contador${imagenId}`).innerText = contador;
+        }
+    
+        window.onload = function() {
+            obtenerContador(1);
+            obtenerContador(2);
+            obtenerContador(3);
+            obtenerContador(4);
+            obtenerContador(5);
+            // Agrega más llamadas a obtenerContador para cada imagen adicional
+        };
+    </script>
+  <br>
+  <br>
+  <br>
+  <footer>
+   <p>&copy; 2024 RoT NeTT - Todos los derechos reservados</p>
+   <p>Contáctanos: <a href="mailto:rodnett10@gmail.com" class="contact-link">rodnett10@gmail.com</a></p>
+ </footer> 
+
+</body>
+</html>
