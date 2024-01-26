@@ -91,10 +91,7 @@
   10.Cubre los  ñoquis con la salsa 
      preparada y sirve enseguida.
       </pre>
-      <div> 
-      <div class="contador-meGusta" id="contador1">0</div>
-      <button class="boton-meGusta" id="boton1" onclick="toggleMeGusta(1)"><i class="far fa-thumbs-up"></i> Me gusta</button>     
-       </div>
+    
 
         </div>
 
@@ -147,10 +144,6 @@
       acompañado de una taza de arroz.
       </pre>
 
-      <div> 
-         <div class="contador-meGusta" id="contador2">0</div>
-         <button class="boton-meGusta" id="boton2" onclick="toggleMeGusta(2)"><i class="far fa-thumbs-up"></i> Me gusta</button>     
-          </div>
 
         </div>    
     
@@ -216,10 +209,7 @@
      caldo de mariscos puedes utilizar cualquier  mariscos de tu elección.
       </pre>
 
-      <div> 
-         <div class="contador-meGusta" id="contador3">0</div>
-         <button class="boton-meGusta" id="boton3" onclick="toggleMeGusta(3)"><i class="far fa-thumbs-up"></i> Me gusta</button>     
-          </div>
+ 
 
         </div>
        
@@ -265,10 +255,8 @@
         
       </pre>
 
-      <div> 
-         <div class="contador-meGusta" id="contador4">0</div>
-         <button class="boton-meGusta" id="boton4" onclick="toggleMeGusta(4)"><i class="far fa-thumbs-up"></i> Me gusta</button>     
-          </div>
+     
+     
         </div>
       
         <div class="receta">
@@ -309,50 +297,13 @@
 
        </pre>
        
-       <div> 
-       <div class="contador-meGusta" id="contador5">0</div>
-       <button class="boton-meGusta" id="boton5" onclick="toggleMeGusta(5)"><i class="far fa-thumbs-up"></i> Me gusta</button>
-      </div>
     </div>
      
        
        
    </section>
         <!-- Puedes agregar más recetas según sea necesario -->
-        <script>
-         function obtenerContador(imagenId) {
-             const contador = parseInt(localStorage.getItem(`contadorMeGusta${imagenId}`)) || 0;
-             document.getElementById(`contador${imagenId}`).innerText = contador;
-         }
-     
-         function toggleMeGusta(imagenId) {
-             const meGustaDado = localStorage.getItem(`meGustaDado${imagenId}`);
-     
-             if (meGustaDado) {
-                 // Si ya se dio "Me gusta", quitarlo
-                 localStorage.removeItem(`meGustaDado${imagenId}`);
-             } else {
-                 // Si no se ha dado "Me gusta", darlo
-                 localStorage.setItem(`meGustaDado${imagenId}`, 'true');
-             }
-     
-             // Actualizar el contador y el estado del botón
-             const contador = meGustaDado ? parseInt(localStorage.getItem(`contadorMeGusta${imagenId}`)) - 1 : parseInt(localStorage.getItem(`contadorMeGusta${imagenId}`)) + 1;
-             localStorage.setItem(`contadorMeGusta${imagenId}`, contador);
-             document.getElementById(`contador${imagenId}`).innerText = contador;
-         }
-     
-         window.onload = function() {
-             obtenerContador(1);
-             obtenerContador(2);
-             obtenerContador(3);
-             obtenerContador(4);
-             obtenerContador(5);
-             // Agrega más llamadas a obtenerContador para cada imagen adicional
-         };
-     </script>
-     
-       
+      
      
      
 
