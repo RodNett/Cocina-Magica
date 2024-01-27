@@ -60,6 +60,22 @@ body {
     padding: 1em;
   }
 
+
+  .paraffo {
+
+    text-align: justify;
+    margin-left: none; /* Centra el contenedor */
+    margin-right: auto; /* Centra el contenedor */
+    width: 80%; /* Define el ancho del contenedor, ajusta según necesites */
+    padding-left: 20px; /* Añade espacio a la izquierda para que los números no estén pegados al borde */
+  }
+  
+  .paraffo li {
+    margin-bottom: 10px; /* Espacio entre cada ítem de la lista */
+  }
+  
+
+
 .cocinero{
 
   width: 40px;
